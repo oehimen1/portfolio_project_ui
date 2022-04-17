@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Righteous');
+
+
+nav{
+    height:100%;
+    width: 100%;
+}
+.nav{
+    padding: 0px;
+    margin:0px;
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.site-brand{
+    text-align: left;
+    margin-top:30px;
+    
+}
+
+.site-brand  h1{
+    color:#FFFFFF;
+    font-weight: 400px;
+    font-size: 55px;
+    margin-top:0px;
+}
+
+.navbar-titles{
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+    font-family: Righteous;
+    font-weight: 300px;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top:30px;
+
+}
+
+.navbar-titles li{
+    padding-right: 25px;
+}
+
+.navbar-titles li :visited{
+    color:#FFFFFF;
+}
+
+.navbar-titles li a{
+    text-decoration: none;
+}
+
+
+border{
+    margin:0 auto;
+    padding:0;
+    display: flex;
+    border: 1px solid #4eb731;
+}
+
+.logout{
+    cursor: pointer;
+}

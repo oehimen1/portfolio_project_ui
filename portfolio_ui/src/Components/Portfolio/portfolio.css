@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Righteous');
+
+header{
+    padding-left:30px;
+}
+
+h1{
+    font-family: Oswald;
+    color: #4eb731;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.bodyContent{
+    padding-left: 25px;
+}
+
+p{
+    font-family: Oswald;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:100;
+    line-height: 2.0;
+
+}
+
+.card h3{
+    color: black;
+    margin-top:4px;
+    margin-bottom:4px;
+}
+
+.card p{
+    font-size: 14px;
+    color: black;
+    margin-top:4px;
+    margin-bottom:4px;
+    line-height: 1.5;
+    padding:0px 4px;
+
+}
+
+.card  a{
+    padding-top: 1px;
+    text-decoration: none;
+    font-weight: 200;
+    color: #4eb731;
+}
+
+Button{
+    color: white;
+}
+
+.NotAllowed {
+    text-align: center;
+    color:white;
+}
+
+.NotAllowed a{
+    color: #4eb731;
+}

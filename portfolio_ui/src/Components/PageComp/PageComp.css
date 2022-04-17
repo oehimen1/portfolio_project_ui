@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Righteous');
+
+header{
+    padding-left:30px;
+}
+
+h1{
+    font-family: Oswald;
+    color: #4eb731;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+}
+
+.bodyContent{
+    padding-left: 25px;
+}
+
+p{
+    font-family: Oswald;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight:100;
+    line-height: 2.0;
+
+}
