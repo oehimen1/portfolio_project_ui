@@ -25,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "REACT_APP_REMOTE_HOST_URL=postgres://lnikdyreqcieuq:a847e2a97ebfc60e2f2d5b718baa24c9bf1d9cda83470111ad7eb91572ac4ede@ec2-23-20-224-166.compute-1.amazonaws.com:5432/d39qgkf5m3jmha npm run build && cp build/index.html build/200.html && surge build"
   },
   "eslintConfig": {
     "extends": [
