@@ -12,6 +12,7 @@
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
+    "env-cmd": "^10.1.0",
     "history": "^5.3.0",
     "moment": "^2.29.2",
     "react": "^18.0.0",
@@ -26,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "REACT_APP_REMOTE_HOST_URL=postgres://lnikdyreqcieuq:a847e2a97ebfc60e2f2d5b718baa24c9bf1d9cda83470111ad7eb91572ac4ede@ec2-23-20-224-166.compute-1.amazonaws.com:5432/d39qgkf5m3jmha npm run build && cp build/index.html build/200.html && surge build"
+    "deploy": "REACT_APP_REMOTE_HOST_URL=https://obehicehimen.herokuapp.com npm run build && cp build/index.html build/200.html && surge build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
